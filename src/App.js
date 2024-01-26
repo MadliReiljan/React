@@ -4,10 +4,14 @@ import Expenses from './components/Expenses';
 function App() {
   
   return (
-    <div className="App">
-      <Expenses
-      expenses={Expenses}
-      />
+    <div className='App'>
+      <div className="card expenses"> 
+        <div className='card expense-item'>
+        <Expenses
+        expenses={Expenses}
+        />
+        </div>
+      </div>
     </div>
   );
 }
